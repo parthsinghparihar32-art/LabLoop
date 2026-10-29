@@ -202,7 +202,7 @@ The proposed relational database consists of eight main tables:
 - Profiles can hold multiple credentials.
 - Important actions can be recorded in the audit log.
 
-The schema will be implemented through version-controlled SQL migrations. Table definitions, constraints, and policies will be documented as development progresses.
+The schema is implemented through version-controlled SQL migrations in `supabase/migrations/`. Full architectural details, RLS policies, atomic functions, and API contracts are documented in [`docs/BACKEND_ARCHITECTURE.md`](docs/BACKEND_ARCHITECTURE.md).
 
 ### Booking Statuses
 
